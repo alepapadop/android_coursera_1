@@ -1,0 +1,3 @@
+03-03 16:02:29.710: I/Lab-Graphics(1860): Creating Bubble at: x:250.0 y:250.0
+03-03 16:02:31.230: I/Lab-Graphics(1860): Pop!
+03-03 16:02:31.740: I/Lab-Graphics(1860): Bubble removed from view!
