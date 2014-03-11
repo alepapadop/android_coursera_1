@@ -34,7 +34,7 @@ public class PlaceDownloaderTask extends AsyncTask<Location, Void, PlaceRecord> 
 	private static final boolean HAS_NETWORK = true;
 
     // TODO - put your www.geonames.org account name here.
-    private static String USERNAME = "YOUR USERNAME HERE";
+    private static String USERNAME = "alepapadop";
 
 	private HttpURLConnection mHttpUrl;
 	private WeakReference<PlaceViewActivity> mParent;
@@ -215,7 +215,8 @@ public class PlaceDownloaderTask extends AsyncTask<Location, Void, PlaceRecord> 
 	}
 
 	private static String generateURL(String username, Location location) {
-
+		
+		
 		return "http://www.geonames.org/findNearbyPlaceName?username="
 				+ username + "&style=full&lat=" + location.getLatitude()
 				+ "&lng=" + location.getLongitude();
